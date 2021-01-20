@@ -2,7 +2,9 @@ sentence = "Hello there, how are you?"
 
 def reverse_each_word(sentence)
 
-  sentence.each do |word|
-    word.map.reverse
+  sentence.split() = word 
+  word.each do
+    words = word.reverse
   end
+  words
 end
