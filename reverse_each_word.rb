@@ -2,8 +2,5 @@ sentence = "Hello there, how are you?"
 
 def reverse_each_word(sentence)
 
-  sentence.each do |word|
-    item = word.reverse
-    item
-    end
+  sentence.reverse
 end
